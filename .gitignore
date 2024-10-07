@@ -1,0 +1,31 @@
+*.csv
+.vscode/
+.idea/
+# Ignore object files (.o)
+*.o
+
+# Ignore executable files (by default)
+a.out
+*.out
+*.exe
+
+# Ignore compiled static libraries (.a) and shared libraries (.so)
+*.a
+*.so
+
+# Ignore dependency files created by the compiler
+*.d
+
+# Ignore debugging and core dump files
+*.gch
+*.dSYM/
+core
+
+# Ignore compiled binary files and other temporary build artifacts
+*.bin
+*.elf
+*.map
+
+# Ignore temporary editor files (common in many editors/IDEs)
+*~
+*.swp
